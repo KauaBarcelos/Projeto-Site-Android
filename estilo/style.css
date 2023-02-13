@@ -33,6 +33,7 @@ $83e1ad
 }
 
 *{
+    
     margin: 0px;
     padding: 0px;
 }
@@ -183,21 +184,16 @@ $83e1ad
             columns: 2;
         }
 
-        footer {
+        footer{
+            text-decoration: none;
             background-color: var(--cor5);
             color: #ffffff;
             text-align: center;
             font-size: 0.7em;
             padding: 5px;         
         }
-        footer > a {
-            color: white;
-            text-decoration: none;
-        }
-        footer a:hover{
-            text-decoration: none;
-            color: var(--cor1);
-        }
-        footer a:visited{
-            color:white;
-        }
+       a.rodape{
+        text-decoration: underline;
+        color:#ffffff
+       }
+
